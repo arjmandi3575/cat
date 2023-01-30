@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'iranyekan_numbers','iranyekan';
+}
+header{
+    background-image: url(./Untitled-2.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.header{
+    margin: 0 auto;
+    width: 90%;
+}
+header .flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex .shorten{
+    padding: 2rem;
+    width: 50%;
+}
+.flex .login{
+    width: 50%;
+    padding: 2rem;
+    text-align: end;
+} 
+.shorten{
+    display: flex;
+    flex-direction: row;
+}
+.shorten .svg{
+    color:  #4d41ec;
+    border-radius: 1rem;
+}
+.shorten .p{
+    color:  #4d41ec;
+}
+.flex .login a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    background-color: #5d4ef5;
+    border: #5d4ef5 solid 0.15rem;
+}
+.text{
+    line-height: 4rem;
+    width: 70%;
+    margin: 10rem auto;
+}
+h6{
+    color: #aeafb7;
+}
+h1{
+    color: #35373d;
+}
+h1 span{
+    color: #2b2c30;
+    font-weight: bolder;
+}
+.search{
+    width: 48%;
+}
+input{
+    padding: 0.85rem 0;
+    width: 100%;
+    border-radius: 1rem;
+}
