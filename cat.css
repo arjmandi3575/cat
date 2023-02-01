@@ -24,7 +24,6 @@ header{
     background-size: cover;
     width: 100%;
     height: 100vh;
-    background-attachment: fixed;
 }
 .header{
     margin: 0 auto;
@@ -63,7 +62,7 @@ header .flex{
     background-color: #5d4ef5;
     border: #5d4ef5 solid 0.15rem;
 }
-.text{
+header .text{
     line-height: 4rem;
     width: 70%;
     margin: 10rem auto;
@@ -79,10 +78,53 @@ h1 span{
     font-weight: bolder;
 }
 .search{
-    width: 48%;
+    margin-top: 2rem;
+    width: 52%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.shortenn{
+    box-shadow: 3px 2px 3px rgba(34, 30, 30, 0.068);
+     width: 15%;
+     padding: 0 1.5rem;
+     font-size: 0.75rem;
+     background-color: white;
+     border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
 }
 input{
-    padding: 0.85rem 0;
-    width: 100%;
-    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 3px 2px 3px rgba(34, 30, 30, 0.068);
+    border: none;
+    padding: 0 2rem;
+    width: 80%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
+article{
+    height: 10vh;
+    background-color: rgb(178, 180, 182);
+}
+.article{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+article .text{
+    width: 50%;
+}
+article .text span{
+    font-weight: bold;
+}
+article .input{
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+article .input .p{ 
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+article .email{}
