@@ -92,7 +92,7 @@ h1 span{
      border-top-right-radius: 2rem;
      border-bottom-right-radius: 2rem;
 }
-input{
+.search input{
     background-color: white;
     box-shadow: 3px 2px 3px rgba(34, 30, 30, 0.068);
     border: none;
@@ -102,6 +102,7 @@ input{
     border-bottom-left-radius: 2rem;
 }
 article{
+    align-items: center;
     height: 10vh;
     background-color: rgb(178, 180, 182);
 }
@@ -110,21 +111,117 @@ article{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 article .text{
-    width: 50%;
+    width: 70%;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
 }
 article .text span{
     font-weight: bold;
 }
-article .input{
-    border-radius: 2rem;
+/* article .input{
+    display: flex;
+    flex-direction: row-reverse;
+}
+article .input .p{
+    height: auto;
+    font-size: 0.75rem;
+     background-color: white;
+}
+article .email{
+     padding: 0 2rem;
+} */
+article .form{
+    margin-top: 1rem;
+    width: 30%;
+    background-color: white;
+    border: none;
+    height: 5vh;
+}
+.article button{
+    border: none;
+    width: 30%;
+    background-color: white;
+}
+.article input{
+    padding-left: 0.85rem;
+    width: 60%;
+    background-color: white;
+    border: none;
+}
+.section{
+    width: 85%;
+    margin: 6rem auto;
+}
+.bac{
+    background-image: url(./bac.png);
+}
+section{
     display: flex;
     flex-direction: row;
+    justify-content: space-between !important;
+}
+section .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+section .left .bb{
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+section .left .text{
+    width: 60%;
+}
+section .left .text .b{
+    font-weight: bold;
+}
+section .left .text .p{}
+section .left .icon{
+    width: 10%;
+}
+.icon img{
+    width: 100%;
+}
+section .right{
     width: 50%;
 }
-article .input .p{ 
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+section .right b{
+    font-size: 3rem;
+    line-height: 4rem;
 }
-article .email{}
+section .right h5{
+    margin-top: 5rem;
+    line-height: 2rem;
+}
+.center{
+    line-height: 4rem;
+    align-items: center;
+    text-align: center;
+}
+.center .p1{
+    color: #7b7c81;
+    font-size: 1rem;
+}
+.center .p2{
+    font-size: 2rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+    margin: 5rem auto;
+}
+.card .card1{
+    border: 2px solid #606268c0;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
