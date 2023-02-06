@@ -121,18 +121,6 @@ article .text{
 article .text span{
     font-weight: bold;
 }
-/* article .input{
-    display: flex;
-    flex-direction: row-reverse;
-}
-article .input .p{
-    height: auto;
-    font-size: 0.75rem;
-     background-color: white;
-}
-article .email{
-     padding: 0 2rem;
-} */
 article .form{
     margin-top: 1rem;
     width: 30%;

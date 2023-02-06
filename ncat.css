@@ -16,58 +16,190 @@
     margin: 0;
     padding: 0;
 }
-    /* background: linear-gradient(to right,rgba(210, 2, 238, 0.904),blue); */
-
 body{
-    background-color: rgb(246, 248, 250);
     font-family: 'iranyekan_numbers','iranyekan';
     box-sizing: border-box;
 }
-.img{
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    width: 50%;
-    background-size: cover;
+.top{
+    background-color: rgb(246, 248, 250);
 }
-img{
-    
+.img img {
+    width: 43%;
+    left: 57%;
+    height: auto;
     position: absolute;
-    width: 100%;
-    left: 100%;
+    z-index: 1;
 }
-.c{
+.container {
     width: 90%;
-    margin: 5rem auto;
-    position: relative;
+    margin: auto;
 }
-.nav{
-    width: 100%;
-    position: absolute;
-    top: -42rem;
+.background {
+    background-color: #ebeff4;
+}
+header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.shorten{
-    width: 50%;
+.left {
+    z-index: 2;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin-top: 15px;
 }
-.shorten .svg{
-    color: rgba(73, 2, 238, 0.904);
+.left h3 {
+    font-size: 15px;
+    color: #1d0fa1;
 }
-.shorten .p{
-    font-weight: bold;
-    color: rgba(112, 2, 238, 0.904);
+.left .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #170dd8;
+    border: 1px solid #1d0fa1;
 }
-.nav .login{
-    border: red solid 2px;
-    border-radius: 2rem;
-    width: 50%;
-    text-align: end;
+.right {
+    z-index: 2;
 }
-.login a{
+.right a button {
     color: white;
-    text-decoration: none;
+    background-color: #1916e7;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.middel{
+    padding-bottom: 4rem;
+    padding-top: 12rem;
+    margin: 0 auto;
+    width: 80%;
+}
+.middel .text{
+    line-height: 4rem;
+}
+h6{
+    color: #aeafb7;
+}
+h1{
+    color: #35373d;
+}
+h1 span{
+    color: #2b2c30;
+    font-weight: bolder;
+}
+.search{
+    margin-top: 2rem;
+    width: 52%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.shortenn{
+    box-shadow: 3px 2px 3px rgba(34, 30, 30, 0.068);
+     width: 15%;
+     padding: 0 1.5rem;
+     font-size: 0.75rem;
+     background-color: white;
+     border-top-right-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+}
+.search input{
+    background-color: white;
+    box-shadow: 3px 2px 3px rgba(34, 30, 30, 0.068);
+    border: none;
+    padding: 0 2rem;
+    width: 80%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+article{
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(178, 180, 182);
+}
+.article{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+article .text{
+    width: 70%;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+}
+article .text span{
+    font-weight: bold;
+}
+article .form{
+    margin-top: 1rem;
+    width: 30%;
+    background-color: white;
+    border: none;
+    height: 5vh;
+}
+.article button{
+    border: none;
+    width: 30%;
+    background-color: white;
+}
+.article input{
+    padding-left: 0.85rem;
+    width: 60%;
+    background-color: white;
+    border: none;
+}
+.section{
+    width: 85%;
+    margin: 6rem auto;
+}
+.bac{
+    background-image: url(./bac.png);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+section .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+section .left .bb{
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+section .left .text{
+    width: 60%;
+}
+section .left .text .b{
+    font-weight: bold;
+}
+section .left .icon{
+    width: 10%;
+}
+.icon img{
+    width: 100%;
+}
+section .right{
+    width: 50%;
+}
+section .right b{
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+section .right h5{
+    margin-top: 5rem;
+    line-height: 2rem;
 }
